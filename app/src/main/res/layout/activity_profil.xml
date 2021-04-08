@@ -1,0 +1,53 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginLeft="30dp"
+    android:layout_marginRight="30dp"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context=".ProfilActivity">
+/**
+    *Nama   : Muhammad Rijal Sulaeman
+    *kelas  : IF-8
+    *NIM    : 10118341
+    *Tanggal Pengerjaan : 8 April 2021
+    */
+    <ImageView
+        android:layout_width="240dp"
+        android:layout_height="240dp"
+        android:src="@drawable/pp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Nama : Muhammad Rijal Sulaeman"
+        android:textSize="12dp"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Kelas : IF-8"
+        android:textSize="12dp"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="NIM : 10118341"
+        android:textSize="12dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Panggilan saya ijal, saya mahasiswa unikom semester 6, hobi saya menonton film"
+        android:textSize="12dp"/>
+
+    <Button
+        android:id="@+id/back"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="kembali"
+        android:layout_marginLeft="120dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="120dp"
+        android:layout_marginBottom="10dp"/>
+</LinearLayout>
